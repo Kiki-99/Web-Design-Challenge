@@ -4,7 +4,7 @@ body {
   }
   
   h1 {
-    font-size: 80px;
+    font-size: 70px;
     color: blue;
   }
   h2 {
@@ -14,21 +14,24 @@ body {
   h3 {
     font-size: 30px;
   }
+
+  p {
+    text-indent: 50px;
+  }
   
   /* Giving our navbar some padding and a background color */
   .navbar {
-    padding: 10px;
+    padding: 7px;
     background: #113f9b;
   }
   
   /* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
   .navbar li {
     display: inline-block;
-    padding: 20px;
+    padding: 10px;
     margin-right: 10px;
     margin-left: 10px;
     cursor: pointer;
-    background: #fff;
     border-radius: 3px;
   }
   
@@ -38,13 +41,3 @@ body {
     margin: 0;
     color: #000;
     text-align: center;
-  
-  .navbar-right {
-    display: inline-block;
-    padding: 20px;
-    margin-right: 10px;
-    margin-left: 10px;
-    cursor: pointer;
-    background: #fff;
-    border-radius: 3px;
-  }
